@@ -1,0 +1,51 @@
+body {
+   background-image: url(img/nature.png);
+   background-size: contain;
+   background-attachment: fixed;
+   margin: 0;
+   padding: 0;
+}
+.container{
+   /*background-color: rgba(85, 100, 70, 0.7);*/
+}
+.square{
+   width: 300px;
+   height: 300px; 
+   display: inline-block;
+   margin: 5px;
+   border: 2px solid red;
+}
+.backgroundColor{
+   background-color: lime;
+}
+.backgroundImage{
+   background-image: url(img/pat.jpg);
+}
+.backgroundImageRepeatY{
+   background-image: url(img/pat.jpg);
+   background-repeat: repeat-y;
+}
+.backgroundImageNoRepeat{
+   background-image: url(img/pat.jpg);
+   background-repeat: no-repeat;
+}
+.backgroundImageX{
+   background-image: url(img/pat.jpg);
+   background-repeat: repeat-x;
+}
+.backgroundSizeAuto{
+   background-image: url(img/1-14.jpg);
+   background-size: auto;
+}
+.backgroundSizeCover{
+   background-image: url(img/1-14.jpg);
+   background-size: cover;
+}
+.backgroundSizeContain{
+   background-image: url(img/1-14.jpg);
+   background-size: contain;
+}
+.backgroundSizePercent{
+   background-image: url(img/1-14.jpg);
+   background-size: width 20% height 20%;
+}

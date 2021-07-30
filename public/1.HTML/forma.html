@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" >
+        First name <input type="text" name="first_name" placeholder="John" required><br>
+Last name <input type="text" name="last_name"><br>
+E-mail <input type="email" name="email"><br>
+Password <input type="password" name="password">
+<br>
+Gen<br>
+ <input type="radio" value="M" name="gender"> M
+ <input type="radio" value="F" name="gender"> F
+
+<br>
+Studii <br>
+<input type="checkbox" value="Medii" name="studii[]">Medii
+<br> <input type="checkbox" value="Licenta" name="studii[]">Licenta
+<br><input type="checkbox" value="Master" name="studii[]">Master
+<br><input type="checkbox" value="Doctor" name="studii{}" >Doctor
+<br> Oras
+<select name="city"> 
+<option value="Chisinau">Chisinau </option>><br> 
+<option value="Balti">Balti</option><br> 
+<option value="Cahul">Cahul</option><br>
+<option value="Comrat">Comrat</option><br>
+    </select>
+<br>
+Data Nasterii <input type="date" name="birthday" >
+<br>Disponibil pentru un sunet<input type="time">
+<br>Nomer de tel <input type=tel name="phone">
+<br> Biografie
+<textarea name="Bio" rows=4 cols="=15"></textarea>>
+<br>
+<input type="file" name="card_id"  >
+<br>Salariu dorit
+<br><input type="number" name="salary" value="100000" readonly>
+<br>Varsta
+<br><input type="range" name="age" min="18" max="60" value="30" disabled>
+<br> Color your yers <input type="color" name="color">
+<input type="reset" name="Reset" >
+<br>
+<br>
+<br>
+<input type="submit" value="Register"><br>
+</body>
+</html>

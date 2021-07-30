@@ -1,0 +1,44 @@
+.square{
+   width:150px;
+   height: 150px; 
+   display: inline-block;
+   margin: 10px;
+   background-color: pink;
+}
+.borderSolid{
+    border-style: solid;
+}
+.borderDtted{
+    border-style: dotted;
+}
+.borderDashed{
+    border-style: dashed;
+}
+.borderDouble{
+    border-style: double;
+}
+.borderInset{
+    border-style: inset;
+}.borderOutset{
+    border-style: outset;
+}
+.borderGroove{
+    border-style: groove;
+}
+.borderRidge {
+    border-style: ridge;
+}
+.borderTopStyle{
+    border-top-style: solid  ;
+    border-top-color: brown ;
+}
+.borderPair_width{
+    border-width: 10px 20px;
+    border-color: blue;
+    border-style: solid;
+}
+.borderSides{
+    border-width: 5px 10px 15px 20px;
+    border-color: darkgray;
+    border-style: solid;
+}
