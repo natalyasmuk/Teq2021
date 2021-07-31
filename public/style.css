@@ -1,17 +1,46 @@
-body {background: rgb(70, 238, 64);}
-ul{
-    background:  #0b046d ;
-    list-style: none;
+body {
+    background-image: url ("public/img/nature.png");
+    font-family: Verdana;
+    background-attachment: fixed;
+    background-size: contain;
+    margin: 0;
     padding: 0;
+}
+header {
+    font-size: 28px;
+    font-weight: bold;
+    background-color: magenta;
+    text-align: center;
+    padding: 1em;
+    сolor: rgb(44, 107, 75);
+    
+}
+header h1{
+    font-size: 23px; 
+}
+section{
+    background-color: rgb(248, 248, 14);
+    padding: 5em;
+    margin: 0px;
+}
+ul{
+    background:  #1717c0 ;
+    list-style: none;
+    opacity: 0.8;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+
 }
 
 ul li{
     padding-left: 20px;
 }
 
-ul span{
-    color: white ;
+ul article header{
+    height: auto;
+    font-size: 21px;
     font-weight: bold;
+    padding: 1em;
 }
 
 
@@ -20,15 +49,38 @@ ul li ul{
   
 }
 
+ul li ul li:hover{
+opacity: 0.8;
+padding: 5px;
+margin-bottom: 1px;
+border: 1px dotted #26e465;
+padding-left: 33px;
+text-transform: uppercase;
+
+}
+ul li:hover{
+    opacity: 1;
+    background-color: rgb(15, 116, 119);
+}
+
 ul li ul li{
     margin-bottom: 5px;
     padding: 3px;
-    border: 1px solid #faf8f5;
+    border: 1px dotted #faf8f5;
+    padding-left: 15px;
     margin-left: 40px;
 }
 
 ul li ul li a{
     color: white;
-        text-decoration: none;
+    text-decoration: none;
+    display: block;
 
+}
+footer{
+    background-color: indigo;
+    color: white;
+    text-align: center;
+    height: 10em;
+    padding-top: 2em;
 }
