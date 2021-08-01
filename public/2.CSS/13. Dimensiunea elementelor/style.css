@@ -1,0 +1,19 @@
+body{
+    background-color: lawngreen;
+}
+.element{
+    border: 1px solid mediumblue;
+    width: 33%;
+    height: 70px;
+    display: inline-block;
+}
+#special{
+    border: 1px solid mediumblue;
+    width: 600px;
+    height: 130px;
+    margin: 10px;
+    background-color: crimson;
+    border-bottom-width: 10px;
+    border: 10px solid lightsalmon;
+    padding-left: 10px;
+}
